@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesformulario.css" type="text/css">
+    </head>
+    <body>
+        <h2>Rellena tu CV</h2>
+        <form action="gestion.php" method="post" class="center">
+            <fieldset>
+            <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="apellido">Apellidos</label><br>
+                <input type="text" id="apellido" name="apellido" required><br>
+            </fieldset><br>    
+            <label for="password">Contraseña</label><br>
+                <input type="password"  id="pwd" name="pwd" required><br>
+
+            <label for="dni">DNI</label><br>
+                <input type="text" id="dni" maxlength="8" required><br>
+
+            <label for="nacimiento">Fecha de nacimiento</label><br>   
+                <input type="date" id="fecha" name="fecha"><br>
+
+            <label for="email">Email</label><br>   
+                <input type="email" id="email" name="email" multiple required placeholder="ejemplo1@email.com, ejemplo2@email.com"> 
+
+            <p>Sexo</p> 
+                <input type="radio" id="hombre" name="Sexo" required>
+            <label for="hombre">Hombre</label><br> 
+                <input type="radio" id="mujer" name="Sexo" required>
+            <label for="mujer">Mujer</label><br><br> 
+
+            <label for="years">Años en activo</label><br>
+                <input type="number" id="years" name="years" min="0" max="50" required><br><br> 
+
+            <label for="imagen">Incluir mi foto</label>  
+                <input type="file" id="foto" name="foto"><br><br>
+
+            <label for="codigo">Código</label><br>
+                <input type="text" id="codigo" name="codigo" value="CV-LM" readonly><br><br>  
+
+                <input type="checkbox" id="suscribirse" name="suscribirse" required>
+            <label for="suscribirse">Suscribirme a boletín de novedades</label><br><br>  
+
+                <input type="submit" value="Guardar campos">
+                <input type="reset" value="Borrar los datos introducidos" >     
+
+        </form>
+    </body>
+</html>

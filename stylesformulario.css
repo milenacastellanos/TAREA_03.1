@@ -1,0 +1,58 @@
+input:focus{
+    background-color: yellow;
+}
+#codigo {
+    background-color: rgb(195, 195, 195);
+}
+input[type="number"]:valid{
+    background-color: aqua;
+}
+input[type="number"]:invalid{
+    background-color: red;
+}
+input[type="file"]{
+    background-color: pink;
+}
+body {
+    font-family:fantasy,monospace;
+    background-color: antiquewhite; 
+    display: grid;
+    place-items: center;
+}
+form {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(255, 227, 255);
+}
+fieldset {
+    border: 5px solid #f8b6ff;
+    padding: 20px;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    font-weight: bold;
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(192, 255, 219);
+}
+input[type="reset"]{
+    font-weight: bold;
+
+}
+input[type="reset"]:hover{
+    background-color: rgb(255, 152, 152);
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="file"],
+button {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}

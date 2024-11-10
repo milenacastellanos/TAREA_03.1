@@ -1,0 +1,35 @@
+body {
+    background-color: green;
+}
+h1, h2, h4 {
+    color: orange;
+    text-decoration: underline;
+    border-style: dashed;
+    font-family: Garamond, monospace,serif;
+}
+em, strong {
+    color: violet;
+    text-decoration: underline;
+}
+.amarillo {
+    background-color: yellow;
+}
+.azulclaro {
+    background-color: cyan;
+}
+.amarillo.rojo {
+    color: red;
+}
+.cursiva {
+    font-style: italic;
+}
+.rosa {
+    color: pink;
+    font-size: 24pt;
+}
+.violeta {
+    color: violet;
+}
+.negrita {
+    font-weight: bold;
+}
